@@ -7,6 +7,7 @@ public class Main {
 	Draw s = new Square();
 	s.Print(square.getName(), square.getColor());
 	
+	
 	Draw c = new Circle();
 Figure circle =new Figure();
 circle.setFigure("Circle", "green");
