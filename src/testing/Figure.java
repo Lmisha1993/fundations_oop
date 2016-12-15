@@ -1,6 +1,6 @@
 package testing;
 
-public class Figure  {
+public abstract class Figure implements Draw  {
 private String name;
 private String color ;
 

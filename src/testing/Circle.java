@@ -1,6 +1,6 @@
 package testing;
 
-public class Circle extends Figure implements Draw {
+public class Circle extends Figure {
 	
 	private int r = 7;
 	private final double pi = 3.14;

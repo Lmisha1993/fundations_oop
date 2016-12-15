@@ -1,6 +1,6 @@
 package testing;
 
-public class Square extends Figure  implements Draw {
+public class Square extends Figure {
 	private int a = 7;
 	
 	@Override  
