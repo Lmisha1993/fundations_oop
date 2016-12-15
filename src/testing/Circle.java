@@ -5,8 +5,8 @@ public class Circle extends Figure implements Draw {
 	private int r = 7;
 	private final double pi = 3.14;
 	
-	public void Print(String name, String color){
-			
+	@Override
+	public void Print(String name, String color){	
 	System.out.print(name+" "+color+" кольору, радіус якого "+r+"(м) ");
 	calculation();
 	}

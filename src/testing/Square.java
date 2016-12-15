@@ -2,7 +2,8 @@ package testing;
 
 public class Square extends Figure  implements Draw {
 	private int a = 7;
-	   
+	
+	@Override  
 	public void Print(String name, String color){
 		System.out.print(name + " "+color + " кольру з стороно "+a+"(м) ");
 		calculation();	
